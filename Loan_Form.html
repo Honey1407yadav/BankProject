@@ -1,0 +1,65 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <center><h1>Form</h1></center>
+    <form action="./SuccessSaving.html" method="get" target="blank">
+        <fieldset>
+            <legend align="center"><h2>Customer_Details</h2></legend>
+            <label for="f1">First Name :</label>
+            <input type="text" id="f1" name="fname" value="" placeholder="Enter Your Name" required> <br><br>
+
+            <label for="l1">Last Name :</label>
+            <input type="text" id="l1" name="lname" value="" placeholder="Enter Your SurName" required> <br><br>
+
+            <label for="e1">Email Address :</label>
+            <input type="email" id="e1" name="ename" value="" placeholder="Enter Your Email" required> <br><br>
+
+            <label for="p1">Password :</label>
+            <input type="password" id="p1" name="pname" value="" placeholder="Enter Your Password" required> <br><br>
+
+            <label for="d2">DOB2 :</label>
+            <input type="date" id="d2" name="d2name" value="" placeholder="Enter Your Date Of Birth" required> <br><br>
+
+            <label for="">Gender :</label>
+            <input type="radio" id="m1" name="gender"> <label for="m1">Male</label>
+            <input type="radio" id="fe1" name="gender"> <label for="fe1">FeMale</label>
+            <input type="radio" id="o1" name="gender"> <label for="o1">Others</label> <br><br>
+
+            <label for="t1">Address :</label> <br>
+            <textarea name="" id="t1" cols="30" rows="10"></textarea> <br><br>
+            
+            <label for="ac1">Adhar Card Number :</label>
+            <input type="text" id="ac1" name="acname" value="" placeholder="Adhar Card Number" required> <br><br>
+
+            <div class="form-row">
+                <div class="form-group col-md-4">
+                    <label for="inputcity">Loan Type</label>
+
+                    <select id="inputcity" class="form-control" placeholder="Select City" required>
+                        <option>Home Loan</option>
+                        <option>Gold Loan</option>
+                        <option>Personal Loan</option>
+                    </select>
+                </div>
+            </div>
+            <br>
+
+            <label for="ff1">Passport_Size_Photo_Upload :</label>
+            <input type="file" name="" id="ff1" required> <br><br>
+
+            <label for="tel">Telephone_Number :</label>
+            <input type="tel" name="" id="tel"> <br><br>
+
+            <br><br>
+
+            <input type="submit" value="Sava">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="reset" value="Clear">
+        </fieldset>
+    </form>
+</body>
+</html>
